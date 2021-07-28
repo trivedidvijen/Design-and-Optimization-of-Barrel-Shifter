@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8_isim_beh.exe" -prj "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8_beh.prj" "work.t_lrot_8" "work.glbl" 

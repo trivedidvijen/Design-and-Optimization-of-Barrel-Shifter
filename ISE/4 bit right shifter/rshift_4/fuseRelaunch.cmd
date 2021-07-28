@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/BTECH/Mini Project/Barell shifter/ISE/4 bit right shifter/rshift_4/t_rshift_4_isim_beh.exe" -prj "F:/BTECH/Mini Project/Barell shifter/ISE/4 bit right shifter/rshift_4/t_rshift_4_beh.prj" "work.t_rshift_4" "work.glbl" 

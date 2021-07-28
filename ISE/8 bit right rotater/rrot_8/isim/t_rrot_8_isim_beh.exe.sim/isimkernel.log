@@ -1,0 +1,29 @@
+Command line:
+   t_rrot_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51020
+
+Sun Apr 23 14:42:20 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.544 Meg
+
+ Total Signals          : 105
+ Total Nets             : 48
+ Total Signal Drivers   : 31
+ Total Blocks           : 27
+ Total Primitive Blocks : 25
+ Total Processes        : 57
+ Total Traceable Variables  : 44
+ Total Scalar Nets and Variables : 163
+Total Line Count : 130
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 684.257 Meg
+
+Sun Apr 23 14:47:19 2017
+

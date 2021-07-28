@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/BTECH/Mini Project/Barell shifter/ISE/8 bit series bi-directional logical shifter/bishift_series_8/t_bishift_series_8.v" Line 36: Port <arg fmt="%s" index="1">c</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/BTECH/Mini Project/Barell shifter/ISE/8 bit series bi-directional logical shifter/bishift_series_8/bishift_series_8.v" Line 177: Port <arg fmt="%s" index="1">y0</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/BTECH/Mini Project/Barell shifter/ISE/8 bit series bi-directional logical shifter/bishift_series_8/bishift_series_8.v" Line 178: Port <arg fmt="%s" index="1">y0</arg> is not connected to this instance
+</msg>
+
+</messages>
+

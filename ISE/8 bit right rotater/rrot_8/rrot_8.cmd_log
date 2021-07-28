@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rrot_8.ngc" rrot_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rrot_8_map.ncd rrot_8.ngd rrot_8.pcf 
+par -w -intstyle ise -ol high -mt off rrot_8_map.ncd rrot_8.ncd rrot_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rrot_8.twx rrot_8.ncd -o rrot_8.twr rrot_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rrot_8.ngc" rrot_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rrot_8_map.ncd rrot_8.ngd rrot_8.pcf 
+par -w -intstyle ise -ol high -mt off rrot_8_map.ncd rrot_8.ncd rrot_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rrot_8.twx rrot_8.ncd -o rrot_8.twr rrot_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right rotater/rrot_8/rrot_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rrot_8.ngc" rrot_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rrot_8_map.ncd rrot_8.ngd rrot_8.pcf 
+par -w -intstyle ise -ol high -mt off rrot_8_map.ncd rrot_8.ncd rrot_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rrot_8.twx rrot_8.ncd -o rrot_8.twr rrot_8.pcf 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/BTECH/Mini Project/Barell shifter/ISE/Mux 2x1_1/mux2x1/t_mux2x1_isim_beh.exe" -prj "F:/BTECH/Mini Project/Barell shifter/ISE/Mux 2x1_1/mux2x1/t_mux2x1_beh.prj" "work.t_mux2x1" "work.glbl" 

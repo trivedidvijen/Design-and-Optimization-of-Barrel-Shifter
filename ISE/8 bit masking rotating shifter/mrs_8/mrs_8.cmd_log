@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "mrs_8.ngc" mrs_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mrs_8_map.ncd mrs_8.ngd mrs_8.pcf 
+par -w -intstyle ise -ol high -mt off mrs_8_map.ncd mrs_8.ncd mrs_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mrs_8.twx mrs_8.ncd -o mrs_8.twr mrs_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "mrs_8.ngc" mrs_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mrs_8_map.ncd mrs_8.ngd mrs_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg676-2 "mrs_8.ngc" mrs_8.ngd  
+map -intstyle ise -p xc6slx75t-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mrs_8_map.ncd mrs_8.ngd mrs_8.pcf 
+par -w -intstyle ise -ol high -mt off mrs_8_map.ncd mrs_8.ncd mrs_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mrs_8.twx mrs_8.ncd -o mrs_8.twr mrs_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg676-2 "mrs_8.ngc" mrs_8.ngd  
+map -intstyle ise -p xc6slx75t-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mrs_8_map.ncd mrs_8.ngd mrs_8.pcf 
+par -w -intstyle ise -ol high -mt off mrs_8_map.ncd mrs_8.ncd mrs_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mrs_8.twx mrs_8.ncd -o mrs_8.twr mrs_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit masking rotating shifter/mrs_8/mrs_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg676-2 "mrs_8.ngc" mrs_8.ngd  
+map -intstyle ise -p xc6slx75t-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mrs_8_map.ncd mrs_8.ngd mrs_8.pcf 
+par -w -intstyle ise -ol high -mt off mrs_8_map.ncd mrs_8.ncd mrs_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml mrs_8.twx mrs_8.ncd -o mrs_8.twr mrs_8.pcf 

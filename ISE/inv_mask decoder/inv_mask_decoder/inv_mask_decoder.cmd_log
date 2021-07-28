@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "inv_mask_decoder.ngc" inv_mask_decoder.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inv_mask_decoder_map.ncd inv_mask_decoder.ngd inv_mask_decoder.pcf 
+par -w -intstyle ise -ol high -mt off inv_mask_decoder_map.ncd inv_mask_decoder.ncd inv_mask_decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml inv_mask_decoder.twx inv_mask_decoder.ncd -o inv_mask_decoder.twr inv_mask_decoder.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.syr" 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.syr" 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/inv_mask decoder/inv_mask_decoder/inv_mask_decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "inv_mask_decoder.ngc" inv_mask_decoder.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o inv_mask_decoder_map.ncd inv_mask_decoder.ngd inv_mask_decoder.pcf 
+par -w -intstyle ise -ol high -mt off inv_mask_decoder_map.ncd inv_mask_decoder.ncd inv_mask_decoder.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml inv_mask_decoder.twx inv_mask_decoder.ncd -o inv_mask_decoder.twr inv_mask_decoder.pcf 

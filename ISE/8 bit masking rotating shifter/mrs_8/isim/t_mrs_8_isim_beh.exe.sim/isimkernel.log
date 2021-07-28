@@ -1,0 +1,29 @@
+Command line:
+   t_mrs_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50330
+
+Thu May 25 15:42:12 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 845.693 Meg
+
+ Total Signals          : 283
+ Total Nets             : 177
+ Total Signal Drivers   : 156
+ Total Blocks           : 72
+ Total Primitive Blocks : 66
+ Total Processes        : 219
+ Total Traceable Variables  : 85
+ Total Scalar Nets and Variables : 334
+Total Line Count : 319
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 688.407 Meg
+
+Thu May 25 15:45:49 2017
+

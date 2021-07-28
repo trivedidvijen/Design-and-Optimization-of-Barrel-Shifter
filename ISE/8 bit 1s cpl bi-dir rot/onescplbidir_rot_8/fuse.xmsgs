@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/BTECH/Mini Project/Barell shifter/ISE/8 bit 1s cpl bi-dir rot/onescplbidir_rot_8/t_onescplbidir_rot_8.v" Line 36: Port <arg fmt="%s" index="1">e</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"F:/BTECH/Mini Project/Barell shifter/ISE/8 bit 1s cpl bi-dir rot/onescplbidir_rot_8/onescplbidir_rot_8.v" Line 109: Port <arg fmt="%s" index="1">y0</arg> is not connected to this instance
+</msg>
+
+</messages>
+

@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml rshift_4.twx rshift_4.ncd -o rshift_4.twr rshift_4.pcf
+
+Design file:              rshift_4.ncd
+Physical constraint file: rshift_4.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data<0>        |out<0>         |    8.677|
+data<0>        |y0             |    9.256|
+data<1>        |out<0>         |    8.909|
+data<1>        |out<1>         |    9.041|
+data<1>        |y0             |    9.176|
+data<1>        |y1             |    9.612|
+data<2>        |out<0>         |    9.430|
+data<2>        |out<1>         |    9.171|
+data<2>        |out<2>         |    9.075|
+data<2>        |y1             |    9.764|
+data<2>        |y2             |    8.877|
+data<3>        |out<0>         |    9.055|
+data<3>        |out<1>         |    9.444|
+data<3>        |out<2>         |    9.348|
+data<3>        |out<3>         |    9.055|
+data<3>        |y2             |    8.556|
+data<3>        |y3             |    8.748|
+sel<0>         |out<0>         |    9.139|
+sel<0>         |out<1>         |    9.271|
+sel<0>         |out<2>         |    9.175|
+sel<0>         |out<3>         |    9.093|
+sel<0>         |y0             |    9.115|
+sel<0>         |y1             |    9.551|
+sel<0>         |y2             |    8.588|
+sel<0>         |y3             |    8.780|
+sel<1>         |out<0>         |    9.217|
+sel<1>         |out<1>         |    9.296|
+sel<1>         |out<2>         |    9.200|
+sel<1>         |out<3>         |    8.853|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Mar 19 22:17:30 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 212 MB
+
+
+

@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8_isim_beh.exe -prj F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8_beh.prj work.t_lrot_8 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/lrot_8.v" into library work
+Analyzing Verilog file "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8.v" Line 35: Port sel is not connected to this instance
+Completed static elaboration
+Compiling module mux2x1
+Compiling module lrot_8
+Compiling module t_lrot_8
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 Verilog Units
+Built simulation executable F:/BTECH/Mini Project/Barell shifter/ISE/8 bit left rotator/lrot_8/t_lrot_8_isim_beh.exe
+Fuse Memory Usage: 27956 KB
+Fuse CPU Usage: 468 ms

@@ -1,0 +1,29 @@
+Command line:
+   t_lrot_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51062
+
+Sun Apr 23 15:03:58 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 841.576 Meg
+
+ Total Signals          : 106
+ Total Nets             : 51
+ Total Signal Drivers   : 34
+ Total Blocks           : 27
+ Total Primitive Blocks : 25
+ Total Processes        : 60
+ Total Traceable Variables  : 44
+ Total Scalar Nets and Variables : 166
+Total Line Count : 130
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 684.29 Meg
+
+Sun Apr 23 15:08:06 2017
+
