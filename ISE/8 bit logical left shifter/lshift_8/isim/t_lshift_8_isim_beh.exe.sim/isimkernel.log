@@ -1,0 +1,29 @@
+Command line:
+   t_lshift_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51035
+
+Sun Apr 23 14:53:03 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.589 Meg
+
+ Total Signals          : 107
+ Total Nets             : 52
+ Total Signal Drivers   : 35
+ Total Blocks           : 27
+ Total Primitive Blocks : 25
+ Total Processes        : 60
+ Total Traceable Variables  : 44
+ Total Scalar Nets and Variables : 167
+Total Line Count : 130
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 684.302 Meg
+
+Sun Apr 23 14:57:50 2017
+

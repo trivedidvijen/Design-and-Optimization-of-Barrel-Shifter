@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml inv_mask_decoder.twx inv_mask_decoder.ncd -o
+inv_mask_decoder.twr inv_mask_decoder.pcf
+
+Design file:              inv_mask_decoder.ncd
+Physical constraint file: inv_mask_decoder.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+d_in<0>        |d_out<0>       |    8.974|
+d_in<0>        |d_out<1>       |    8.855|
+d_in<0>        |d_out<2>       |    8.603|
+d_in<0>        |d_out<3>       |    8.788|
+d_in<0>        |d_out<4>       |    8.729|
+d_in<0>        |d_out<5>       |    8.655|
+d_in<0>        |d_out<6>       |   10.140|
+d_in<0>        |db0            |    7.536|
+d_in<0>        |go5            |    8.976|
+d_in<0>        |go7            |    8.685|
+d_in<1>        |d_out<0>       |    8.880|
+d_in<1>        |d_out<1>       |    9.345|
+d_in<1>        |d_out<2>       |    8.899|
+d_in<1>        |d_out<3>       |    9.084|
+d_in<1>        |d_out<4>       |    9.447|
+d_in<1>        |d_out<5>       |    9.373|
+d_in<1>        |d_out<6>       |   10.046|
+d_in<1>        |db1            |    7.754|
+d_in<1>        |go4            |    8.640|
+d_in<1>        |go5            |    9.466|
+d_in<1>        |go6            |    8.445|
+d_in<1>        |go7            |    9.122|
+d_in<2>        |d_out<0>       |    8.750|
+d_in<2>        |d_out<1>       |    9.513|
+d_in<2>        |d_out<2>       |    8.760|
+d_in<2>        |d_out<3>       |    8.945|
+d_in<2>        |d_out<4>       |    9.105|
+d_in<2>        |d_out<5>       |    9.031|
+d_in<2>        |d_out<6>       |    9.916|
+d_in<2>        |db2            |    7.709|
+d_in<2>        |go4            |    8.401|
+d_in<2>        |go5            |    9.634|
+d_in<2>        |go6            |    8.206|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 28 13:53:20 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 215 MB
+
+
+

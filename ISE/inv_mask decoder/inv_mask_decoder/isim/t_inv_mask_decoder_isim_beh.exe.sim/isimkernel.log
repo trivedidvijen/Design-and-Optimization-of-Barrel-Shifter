@@ -1,0 +1,29 @@
+Command line:
+   t_inv_mask_decoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51640
+
+Tue Mar 28 13:56:06 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 845.713 Meg
+
+ Total Signals          : 30
+ Total Nets             : 38
+ Total Signal Drivers   : 25
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 121
+Total Line Count : 31
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 1160.29 Meg
+
+Tue Mar 28 13:56:38 2017
+

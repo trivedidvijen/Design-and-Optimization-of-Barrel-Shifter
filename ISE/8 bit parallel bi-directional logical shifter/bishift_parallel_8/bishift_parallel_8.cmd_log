@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit parallel bi-directional logical shifter/bishift_parallel_8/bishift_parallel_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit parallel bi-directional logical shifter/bishift_parallel_8/bishift_parallel_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "bishift_parallel_8.ngc" bishift_parallel_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bishift_parallel_8_map.ncd bishift_parallel_8.ngd bishift_parallel_8.pcf 
+par -w -intstyle ise -ol high -mt off bishift_parallel_8_map.ncd bishift_parallel_8.ncd bishift_parallel_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bishift_parallel_8.twx bishift_parallel_8.ncd -o bishift_parallel_8.twr bishift_parallel_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit parallel bi-directional logical shifter/bishift_parallel_8/bishift_parallel_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit parallel bi-directional logical shifter/bishift_parallel_8/bishift_parallel_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "bishift_parallel_8.ngc" bishift_parallel_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bishift_parallel_8_map.ncd bishift_parallel_8.ngd bishift_parallel_8.pcf 
+par -w -intstyle ise -ol high -mt off bishift_parallel_8_map.ncd bishift_parallel_8.ncd bishift_parallel_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml bishift_parallel_8.twx bishift_parallel_8.ncd -o bishift_parallel_8.twr bishift_parallel_8.pcf 

@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rshift_8.ngc" rshift_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rshift_8_map.ncd rshift_8.ngd rshift_8.pcf 
+par -w -intstyle ise -ol high -mt off rshift_8_map.ncd rshift_8.ncd rshift_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rshift_8.twx rshift_8.ncd -o rshift_8.twr rshift_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rshift_8.ngc" rshift_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rshift_8_map.ncd rshift_8.ngd rshift_8.pcf 
+par -w -intstyle ise -ol high -mt off rshift_8_map.ncd rshift_8.ncd rshift_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rshift_8.twx rshift_8.ncd -o rshift_8.twr rshift_8.pcf 
+xst -intstyle ise -ifn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.xst" -ofn "F:/BTECH/Mini Project/Barell shifter/ISE/8 bit right shifter/rshift_8/rshift_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-2 "rshift_8.ngc" rshift_8.ngd  
+map -intstyle ise -p xc6slx4-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o rshift_8_map.ncd rshift_8.ngd rshift_8.pcf 
+par -w -intstyle ise -ol high -mt off rshift_8_map.ncd rshift_8.ncd rshift_8.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml rshift_8.twx rshift_8.ncd -o rshift_8.twr rshift_8.pcf 

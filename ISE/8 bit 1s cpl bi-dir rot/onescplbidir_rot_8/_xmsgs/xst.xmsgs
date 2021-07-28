@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v" Line 109: Port <arg fmt="%s" index="1">y0</arg> is not connected to this instance
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">y7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z3</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z4</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z5</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z6</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BTECH\Mini Project\Barell shifter\ISE\8 bit 1s cpl bi-dir rot\onescplbidir_rot_8\onescplbidir_rot_8.v</arg>&quot; line <arg fmt="%s" index="2">109</arg>: Output port &lt;<arg fmt="%s" index="3">z7</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">rr8</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

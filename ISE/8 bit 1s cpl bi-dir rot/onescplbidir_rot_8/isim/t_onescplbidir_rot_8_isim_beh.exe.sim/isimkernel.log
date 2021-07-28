@@ -1,0 +1,29 @@
+Command line:
+   t_onescplbidir_rot_8_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51152
+
+Sun Apr 23 15:40:02 2017
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.568 Meg
+
+ Total Signals          : 138
+ Total Nets             : 60
+ Total Signal Drivers   : 43
+ Total Blocks           : 37
+ Total Primitive Blocks : 33
+ Total Processes        : 77
+ Total Traceable Variables  : 53
+ Total Scalar Nets and Variables : 184
+Total Line Count : 165
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 684.282 Meg
+
+Sun Apr 23 15:45:11 2017
+

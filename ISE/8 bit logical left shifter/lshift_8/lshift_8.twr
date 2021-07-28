@@ -1,0 +1,179 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml lshift_8.twx lshift_8.ncd -o lshift_8.twr lshift_8.pcf
+
+Design file:              lshift_8.ncd
+Physical constraint file: lshift_8.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data<0>        |out<0>         |   12.532|
+data<0>        |out<1>         |   12.077|
+data<0>        |out<2>         |   12.321|
+data<0>        |out<3>         |   13.036|
+data<0>        |out<4>         |   11.725|
+data<0>        |out<5>         |   11.561|
+data<0>        |out<6>         |   14.172|
+data<0>        |out<7>         |   12.624|
+data<0>        |y0             |   12.546|
+data<0>        |y1             |   11.630|
+data<0>        |z0             |   12.570|
+data<0>        |z1             |   12.602|
+data<0>        |z2             |   12.740|
+data<0>        |z3             |   12.149|
+data<1>        |out<1>         |   12.172|
+data<1>        |out<2>         |   12.649|
+data<1>        |out<3>         |   12.850|
+data<1>        |out<4>         |   11.976|
+data<1>        |out<5>         |   12.132|
+data<1>        |out<6>         |   13.663|
+data<1>        |out<7>         |   12.438|
+data<1>        |y1             |   11.725|
+data<1>        |y2             |   12.334|
+data<1>        |z1             |   12.093|
+data<1>        |z2             |   12.231|
+data<1>        |z3             |   11.963|
+data<1>        |z4             |   11.722|
+data<2>        |out<2>         |   13.434|
+data<2>        |out<3>         |   13.854|
+data<2>        |out<4>         |   13.278|
+data<2>        |out<5>         |   13.195|
+data<2>        |out<6>         |   14.835|
+data<2>        |out<7>         |   13.442|
+data<2>        |y2             |   13.931|
+data<2>        |y3             |   13.245|
+data<2>        |z2             |   13.403|
+data<2>        |z3             |   12.967|
+data<2>        |z4             |   13.024|
+data<2>        |z5             |   12.989|
+data<3>        |out<3>         |   13.524|
+data<3>        |out<4>         |   12.480|
+data<3>        |out<5>         |   12.015|
+data<3>        |out<6>         |   12.433|
+data<3>        |out<7>         |   13.112|
+data<3>        |y3             |   11.863|
+data<3>        |y4             |   11.548|
+data<3>        |z3             |   12.637|
+data<3>        |z4             |   12.226|
+data<3>        |z5             |   11.809|
+data<3>        |z6             |   11.713|
+data<4>        |out<4>         |   12.084|
+data<4>        |out<5>         |   11.943|
+data<4>        |out<6>         |   12.297|
+data<4>        |out<7>         |   12.010|
+data<4>        |y4             |   11.630|
+data<4>        |y5             |   11.384|
+data<4>        |z4             |   11.830|
+data<4>        |z5             |   11.737|
+data<4>        |z6             |   11.577|
+data<4>        |z7             |   11.573|
+data<5>        |out<5>         |   12.444|
+data<5>        |out<6>         |   12.435|
+data<5>        |out<7>         |   12.174|
+data<5>        |y5             |   12.143|
+data<5>        |y6             |   12.313|
+data<5>        |z5             |   12.238|
+data<5>        |z6             |   11.715|
+data<5>        |z7             |   11.737|
+data<6>        |out<6>         |   11.699|
+data<6>        |out<7>         |   11.991|
+data<6>        |y6             |   11.834|
+data<6>        |y7             |   11.902|
+data<6>        |z6             |   10.979|
+data<6>        |z7             |   11.554|
+data<7>        |out<7>         |   12.377|
+data<7>        |y7             |   11.944|
+data<7>        |z7             |   11.940|
+lsel<0>        |out<0>         |   13.777|
+lsel<0>        |out<1>         |   13.238|
+lsel<0>        |out<2>         |   13.536|
+lsel<0>        |out<3>         |   13.959|
+lsel<0>        |out<4>         |   13.173|
+lsel<0>        |out<5>         |   13.390|
+lsel<0>        |out<6>         |   15.069|
+lsel<0>        |out<7>         |   13.547|
+lsel<0>        |sel<0>         |    7.512|
+lsel<0>        |y0             |   13.311|
+lsel<0>        |y1             |   12.791|
+lsel<0>        |y2             |   13.560|
+lsel<0>        |y3             |   13.336|
+lsel<0>        |y4             |   13.021|
+lsel<0>        |y5             |   13.495|
+lsel<0>        |y6             |   13.665|
+lsel<0>        |y7             |   13.312|
+lsel<0>        |z0             |   13.335|
+lsel<0>        |z1             |   13.499|
+lsel<0>        |z2             |   13.637|
+lsel<0>        |z3             |   13.072|
+lsel<0>        |z4             |   12.919|
+lsel<0>        |z5             |   13.184|
+lsel<0>        |z6             |   13.047|
+lsel<0>        |z7             |   12.870|
+lsel<1>        |out<0>         |   15.445|
+lsel<1>        |out<1>         |   15.091|
+lsel<1>        |out<2>         |   14.384|
+lsel<1>        |out<3>         |   15.154|
+lsel<1>        |out<4>         |   14.742|
+lsel<1>        |out<5>         |   14.133|
+lsel<1>        |out<6>         |   15.030|
+lsel<1>        |out<7>         |   14.742|
+lsel<1>        |sel<1>         |    7.727|
+lsel<1>        |z0             |   13.580|
+lsel<1>        |z1             |   13.460|
+lsel<1>        |z2             |   13.598|
+lsel<1>        |z3             |   14.267|
+lsel<1>        |z4             |   14.488|
+lsel<1>        |z5             |   13.927|
+lsel<1>        |z6             |   13.614|
+lsel<1>        |z7             |   14.226|
+lsel<2>        |out<0>         |   14.454|
+lsel<2>        |out<1>         |   14.072|
+lsel<2>        |out<2>         |   14.234|
+lsel<2>        |out<3>         |   13.694|
+lsel<2>        |out<4>         |   13.647|
+lsel<2>        |out<5>         |   13.256|
+lsel<2>        |out<6>         |   13.492|
+lsel<2>        |out<7>         |   13.282|
+lsel<2>        |sel<2>         |    7.296|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 21 08:38:46 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 160 MB
+
+
+
